@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="mcommerce.com.myapplication.ui.fragment.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_plan"
+        android:name="mcommerce.com.myapplication.ui.fragment.PlanFragment"
+        android:label="Plan"
+        tools:layout="@layout/fragment_plan" />
+
+    <fragment
+        android:id="@+id/navigation_cook"
+        android:name="mcommerce.com.myapplication.ui.fragment.CookFragment"
+        android:label="Cook"
+        tools:layout="@layout/fragment_cook" />
+    <fragment
+        android:id="@+id/navigation_orders"
+        android:name="mcommerce.com.myapplication.ui.fragment.OrdersFragment"
+        android:label="Order"
+        tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="mcommerce.com.myapplication.ui.fragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
